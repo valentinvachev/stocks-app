@@ -1,0 +1,67 @@
+.monitor-page {
+    width: 1016px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 3px solid #006e0c;
+    border-radius: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/220/903/original/stock-market-graph-design-on-white-background-vector.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.monitor-main-row-wrapper,
+.monitor-row-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.monitor-summary-row-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 840px;
+}
+
+.monitor-main-row,
+.monitor-row,
+.monitor-summary-row {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.monitor-main-row,
+.monitor-row {
+    border-bottom: 1px solid #006e0c;
+}
+
+.monitor-news-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.monitor-news-icon:hover {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.profit-row {
+    color: #006e0c;
+}
+
+.loss-row {
+    color: red;
+}
+
+.monitor-fetch-prices {
+    background: black;
+}
+
+.monitor-fetch-prices:hover {
+    cursor: pointer;
+}

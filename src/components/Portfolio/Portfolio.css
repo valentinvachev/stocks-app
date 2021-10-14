@@ -1,0 +1,65 @@
+.portfolio-page {
+    margin: auto;
+    padding: 15px;
+    border: 3px solid #006e0c;
+    border-radius: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/220/903/original/stock-market-graph-design-on-white-background-vector.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-main-row-wrapper,
+.portfolio-row-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio-main-row,
+.portfolio-row {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.portfolio-main-row,
+.portfolio-row {
+    border-bottom: 1px solid #006e0c;
+}
+
+.remove-stock-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    /* margin shorthand: top: 0px, right: 0px, bottom: 0px, left: 5px */
+    margin: 0px 0px 0px 5px;
+}
+
+.remove-stock-button span {
+    font-size: 20px;
+    color: black;
+}
+
+.remove-stock-button {
+    background: red;
+}
+
+.remove-stock-button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.add-more-button {
+    background: #006e0c;
+}
+
+.add-more-button:hover {
+    cursor: pointer;
+}

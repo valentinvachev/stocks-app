@@ -1,0 +1,37 @@
+.stock-news-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.source-redirect {
+    background: #006e0c;
+}
+
+.source-redirect:hover {
+    cursor: pointer;
+}
+
+.monitor-news-wrapper {
+    margin: 25px 0px 25px 0;
+}
+
+.monitor-news,
+.monitor-news-empty {
+    margin-top: 25px;
+}
+
+.monitor-single-news-wrapper {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #006e0c;
+    border-radius: 20px;
+}
+
+.monitor-source-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
